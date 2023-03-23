@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Slot Machine Game</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Slot Machine Game</h1>
-    <p>Money: $<span id="money">500</span></p>
-    <p>Bet: $<input type="number" id="bet" min="1" value="1"></p>
-    <button id="play">Play</button>
-    <div id="slots">
-      <div>
-        <img id="slot1" src="">
-        <button id="lock1">Lock</button>
-      </div>
-      <div>
-        <img id="slot2" src="">
-        <button id="lock2">Lock</button>
-      </div>
-      <div>
-        <img id="slot3" src="">
-        <button id="lock3">Lock</button>
-      </div>
-      <div>
-        <img id="slot4" src="">
-        <button id="lock4">Lock</button>
-      </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Slot Machine Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Slot Machine Game</h1>
+  <p>Money: $<span id="money">500</span></p>
+  <p>Bet: $<input type="number" id="bet" min="1" value="1"></p>
+  <button id="play">Play</button>
+  <div id="slots">
+    <div>
+      <img id="slot1" src="">
+      <button id="lock1">Lock</button>
     </div>
-    <p id="result"></p>
-    <script src="main.js"></script>
-  </body>
+    <div>
+      <img id="slot2" src="">
+      <button id="lock2">Lock</button>
+    </div>
+    <div>
+      <img id="slot3" src="">
+      <button id="lock3">Lock</button>
+    </div>
+    <div>
+      <img id="slot4" src="">
+      <button id="lock4">Lock</button>
+    </div>
+  </div>
+  <p id="result"></p>
+  <script src="main.js"></script>
+</body>
+
 </html>
